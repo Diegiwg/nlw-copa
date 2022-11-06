@@ -4,13 +4,13 @@ body {
 }
 
 .bg-blue {
-    background-image: url("./static/background/blue.svg");
+    background-image: url("./../static/background/blue.svg");
 }
 
 .bg-green {
-    background-image: url("./static/background/green.svg");
+    background-image: url("./../static/background/green.svg");
 }
 
 .bg-yellow {
-    background-image: url("./static/background/yellow.svg");
+    background-image: url("./../static/background/yellow.svg");
 }
