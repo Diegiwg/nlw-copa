@@ -1,0 +1,16 @@
+body {
+    background-color: #121214;
+    background-position-x: center;
+}
+
+.bg-blue {
+    background-image: url("/explorer/static/background/blue.svg");
+}
+
+.bg-green {
+    background-image: url("/explorer/static/background/green.svg");
+}
+
+.bg-yellow {
+    background-image: url("/explorer/static/background/yellow.svg");
+}
