@@ -12,3 +12,17 @@
 #top-bar {
     margin-bottom: 66px;
 }
+
+#cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 650px) {
+    #cards {
+        flex-direction: column;
+    }
+}
