@@ -37,6 +37,5 @@ class App {
 
 const app = new App();
 dados_jogos.forEach((card) => {
-    console.log(card);
     app.new_card(card);
 });
