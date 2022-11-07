@@ -15,7 +15,7 @@ const tema_background = [
 
 function tema_draw() {
     let user_bg = window.localStorage.getItem("user-bg");
-    if (user_bg === undefined) {
+    if (user_bg === undefined || user_bg === null) {
         user_bg =
             tema_background[Math.floor(Math.random() * tema_background.length)];
     } else {
