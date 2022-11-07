@@ -15,6 +15,24 @@
     background: var(--cor_0);
     border-bottom: 2px solid var(--cor_1);
     border-radius: 6px;
+
+    filter: drop-shadow(0px 15px 10px #000);
+}
+
+c-box-times > img:hover,
+c-box-times > img:active,
+c-box-times > img:focus {
+    animation: c-box-times-img-Anim 0.4s ease 0s 1 normal both;
+}
+
+@keyframes c-box-times-img-Anim {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.08);
+    }
 }
 
 .card c-box-data {
@@ -36,6 +54,7 @@
     font-weight: 700;
     font-size: 24px;
     text-align: right;
+    text-shadow: 0px 0px 10px var(--cor_1), 2px 2px 10px #000;
 }
 
 .card c-dia-semana {
@@ -43,7 +62,10 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
+    text-shadow: 0px 0px 10px var(--cor_1), 2px 2px 10px #000;
 }
+
+/* C-BOX-TIMES */
 
 .card c-box-times {
     display: flex;
@@ -60,4 +82,31 @@
 
 .card c-box-times + c-box-times {
     border-top: 1px solid var(--cor_4);
+}
+
+.card c-box-times > img {
+    filter: drop-shadow(2px 15px 10px #000);
+}
+
+.card c-box-times {
+    background-image: linear-gradient(
+        -225deg,
+        #e1e1e6 0%,
+        #bfbfc3 29%,
+        #969697 67%,
+        #bfbfc3 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: c-box-times-text 1.4s linear infinite;
+}
+
+@keyframes c-box-times-text {
+    to {
+        background-position: 200% center;
+    }
 }

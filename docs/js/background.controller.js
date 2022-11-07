@@ -1,6 +1,6 @@
 function set_bg_color() {
-    let user_bg = window.localStorage.getItem("user-bg");
-    if (user_bg == null || user_bg === "") user_bg = ["bg-blue"];
+    const background = ["bg-blue", "bg-green", "bg-yellow"];
+    let user_bg = background[Math.floor(Math.random() * background.length)];
     document.body.classList = [user_bg];
 
     setTimeout(() => {

@@ -13,9 +13,9 @@ class App {
         info.jogos.forEach((jogo) => {
             jogos_html += `
                 <c-box-times>
-                    <img src="./static/icon/icon=${jogo.time_1}.svg" alt="icon ${jogo.time_1}" />
+                    <img src="./../static/icon/icon=${jogo.time_1}.svg" alt="icon ${jogo.time_1}" />
                         ${jogo.horario}
-                    <img src="./static/icon/icon=${jogo.time_2}.svg" alt="icon ${jogo.time_2}" />
+                    <img src="./../static/icon/icon=${jogo.time_2}.svg" alt="icon ${jogo.time_2}" />
                 </c-box-times>
             `;
         });
@@ -37,6 +37,5 @@ class App {
 
 const app = new App();
 dados_jogos.forEach((card) => {
-    console.log(card);
     app.new_card(card);
 });
