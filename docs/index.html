@@ -11,20 +11,29 @@
         />
         <title>CALENDÁRIO DE JOGOS - COPA MUNDIAL 2022</title>
 
-        <link rel="stylesheet" href="./css/reset.css" />
-        <link rel="stylesheet" href="./css/app.css" />
-        <link rel="stylesheet" href="./css/background.css" />
-        <link rel="stylesheet" href="./css/card.css" />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/app.css" />
+        <link rel="stylesheet" href="./src/css/background.css" />
+        <link rel="stylesheet" href="./src/css/card.css" />
+        <link rel="stylesheet" href="./src/css/toats.css" />
 
-        <script src="./js/app.js" type="module" defer></script>
-        <script src="./js/background.controller.js"></script>
+        <script src="./src/js/app.js" type="module" defer></script>
+        <script src="./src/js/background.controller.js"></script>
     </head>
-    <body onload="set_bg_color()" hidden>
+    <body class="bg-blue">
         <main id="app">
             <section id="top-bar">
                 <img src="./static/logo.svg" alt="logo do site" />
             </section>
             <section id="cards"></section>
+            <section id="action-menu">
+                <temas></temas>
+                <button title="botão de escolha de temas"></button>
+            </section>
+            <section id="toast">
+                <img title="toast" id="toast-img" />
+                <div id="toast-desc"></div>
+            </section>
         </main>
     </body>
 </html>

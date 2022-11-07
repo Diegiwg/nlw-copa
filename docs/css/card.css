@@ -1,11 +1,4 @@
 .card {
-    --cor_0: #1d1c19;
-    --cor_1: #f7dd43;
-    --cor_2: #e1e1e6;
-    --cor_3: #746615;
-    --cor_4: #323238;
-
-    font-family: "Roboto", sans-serif;
     text-align: center;
 
     line-height: 125%;

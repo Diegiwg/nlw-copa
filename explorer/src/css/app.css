@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
+* {
+    --cor_0: #1d1c19;
+    --cor_1: #f7dd43;
+    --cor_2: #e1e1e6;
+    --cor_3: #746615;
+    --cor_4: #323238;
+
+    font-family: "Roboto", sans-serif;
+}
+
 #app {
     width: -moz-fit-content;
     width: fit-content;
@@ -25,4 +35,50 @@
     #cards {
         flex-direction: column;
     }
+}
+
+#action-menu {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+}
+
+#action-menu button {
+    background-color: var(--cor_3);
+    padding: 16px;
+    border-radius: 20%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    background-image: url("/explorer/static/theme.png");
+}
+
+#action-menu:hover temas {
+    display: block;
+}
+
+temas {
+    display: none;
+    position: relative;
+    background-color: var(--cor_3);
+    border-radius: 6%;
+    opacity: 0.8;
+    z-index: 99;
+    bottom: 40px;
+}
+
+temas a {
+    text-transform: uppercase;
+    color: var(--cor_0);
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+temas:hover,
+temas a:hover,
+#action-menu button:hover {
+    cursor: pointer;
 }

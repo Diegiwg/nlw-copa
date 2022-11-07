@@ -52,7 +52,7 @@ const dados_jogos = [
             },
             {
                 time_1: "argentina",
-                time_2: "saudi arabia",
+                time_2: "saudi_arabia",
                 horario: "1:00",
             },
         ],
@@ -68,7 +68,7 @@ const dados_jogos = [
             },
             {
                 time_1: "spain",
-                time_2: "costa rica",
+                time_2: "costa_rica",
                 horario: "7:00",
             },
             {
@@ -94,7 +94,7 @@ const dados_jogos = [
             },
             {
                 time_1: "uruguay",
-                time_2: "south korea",
+                time_2: "south_korea",
                 horario: "4:00",
             },
             {
@@ -146,7 +146,7 @@ const dados_jogos = [
             },
             {
                 time_1: "poland",
-                time_2: "saudi arabia",
+                time_2: "saudi_arabia",
                 horario: "4:00",
             },
             {
@@ -167,7 +167,7 @@ const dados_jogos = [
         jogos: [
             {
                 time_1: "japan",
-                time_2: "costa rica",
+                time_2: "costa_rica",
                 horario: "1:00",
             },
             {
@@ -197,7 +197,7 @@ const dados_jogos = [
                 horario: "1:00",
             },
             {
-                time_1: "south korea",
+                time_1: "south_korea",
                 time_2: "ghana",
                 horario: "4:00",
             },
@@ -259,7 +259,7 @@ const dados_jogos = [
                 horario: "10:00",
             },
             {
-                time_1: "saudi arabia",
+                time_1: "saudi_arabia",
                 time_2: "mexico",
                 horario: "10:00",
             },
@@ -285,7 +285,7 @@ const dados_jogos = [
                 horario: "10:00",
             },
             {
-                time_1: "costa rica",
+                time_1: "costa_rica",
                 time_2: "germany",
                 horario: "10:00",
             },
@@ -301,7 +301,7 @@ const dados_jogos = [
                 horario: "6:00",
             },
             {
-                time_1: "south korea",
+                time_1: "south_korea",
                 time_2: "portugal",
                 horario: "6:00",
             },
